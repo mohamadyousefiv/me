@@ -1,0 +1,96 @@
+@keyframes Move{
+    from{
+        transform: translatey(-1000px);
+    }
+    to{
+        transform: translatey(0px);
+    }
+}
+section.tea>section.image{
+    animation-name: Move;
+    animation-delay: 300ms;
+    animation-duration: 1s;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+}
+@keyframes Move2{
+    from{
+        transform: translatex(1000px);
+    }
+    to{
+        transform: translatex(0px);
+    }
+}
+section.tea>section.text{
+    animation-name: Move2;
+    animation-delay: 300ms;
+    animation-duration: 1s;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+}
+@keyframes Move3{
+    from{
+        transform: translatex(1000px);
+    }
+    to{
+        transform: translatex(0px);
+    }
+}
+section.about__g>section.text__b{
+    animation-name: Move3;
+    animation-delay: 300ms;
+    animation-duration: 1.5s;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+}
+@keyframes Move4{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform:scale(1);
+    }
+}
+section.image__b{
+    animation-name: Move4;
+    animation-delay: 300ms;
+    animation-duration: 1.5s;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+}
+@keyframes Move5{
+    from{
+        transform: translatex(1000px);
+    }
+    to{
+        transform:translatex(0px);
+    }
+}
+section.text__d>section.text__rice{
+    animation-name: Move5;
+    animation-delay: 300ms;
+    animation-duration: 1.5s;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+}
+section.text__f>section.text__tea{
+    animation-name: Move5;
+    animation-delay: 300ms;
+    animation-duration: 1.5s;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+}
+section.text__h>section.text__pistachios{
+    animation-name: Move5;
+    animation-delay: 300ms;
+    animation-duration: 1.5s;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+}
+section.building__text>section.building__b{
+    animation-name: Move5;
+    animation-delay: 300ms;
+    animation-duration: 1s;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+}

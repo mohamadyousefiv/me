@@ -1,0 +1,19 @@
+@import "../css/main.css";
+@import "../css/animation.css";
+@import "../css/tablet.css";
+@import "../css/mobile.css";
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{
+    font-family: Golestan ;
+    src: url(../font/font_golestan/IRANSansWeb-Light.eot);
+    src: url(../font/font_golestan/IRANSansWeb-Light.ttf);
+    src: url(../font/font_golestan/IRANSansWeb-Light.woff);
+    src: url(../font/font_golestan/IRANSansWeb-Light.woff2);
+}
+body{
+    font-family: Golestan ;
+}
