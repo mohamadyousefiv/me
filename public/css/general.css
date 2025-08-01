@@ -16,4 +16,6 @@
 }
 body{
     font-family: Golestan ;
+    max-width: inherit;
+    overflow-x: hidden;
 }
