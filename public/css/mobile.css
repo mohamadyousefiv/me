@@ -210,6 +210,7 @@ section.line__under{
 section.about__g{
     width: 100%;
     height: 700px;
+    overflow: hidden;
     section.text__b{
         width: 620px;
         height: 300px;
@@ -385,6 +386,7 @@ section.text__d{
     height: 350px;
     position: relative;
     display: block;
+    overflow: hidden;
     .text__rice{
         width:600px;
         height: 300px;
@@ -454,6 +456,7 @@ section.text__f{
     height: 350px;
     position: relative;
     display: block;
+     overflow: hidden;
     .text__tea{
         width:600px;
         height: 300px;
@@ -523,6 +526,7 @@ section.text__h{
     height: 450px;
     position: relative;
     display: block;
+    overflow: hidden;
     .text__pistachios{
         width:600px;
         height: 300px;
@@ -567,6 +571,7 @@ section.building{
     height: 600px;
     background-color: wheat;
     margin-bottom: 110px;
+     overflow: hidden;
     .building__a{
         width: inherit;
         height: 580px;
@@ -617,6 +622,7 @@ section.building__text{
     height: 450px;
     position: relative;
     display: block;
+    overflow: hidden;
     .building__b{
         width:600px;
         height: 300px;

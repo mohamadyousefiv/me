@@ -627,6 +627,7 @@ footer{
     height: 470px;
     background-color: rgb(27, 26, 26);
     position: relative;
+     overflow: hidden;
     .footer__a{
         width: 660px;
         height: 280px;
