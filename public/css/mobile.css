@@ -10,6 +10,8 @@
     label.show{
         text-align: center;
         background-color: rgb(255, 0, 0);
+        background: url(../picture/lego-menu.jpg);
+        background-size: cover;
         width: 40px;
         height: 40px;
         position: absolute;
@@ -42,6 +44,14 @@
                 line-height: 25px;
                 border-radius: 10px;
                 cursor: pointer;
+                .lego__m{
+                    width: 20px;
+                    height: 20px;
+                    background: url(../picture/lego\ menu2.jpg);
+                    background-size: cover;
+                    border-radius: 50%;
+                    margin: 3px auto;
+                }
                 }
         li{
             margin-top: 1px;
@@ -699,7 +709,7 @@ footer{
                 a{
                     font-size: 14px;
                     text-decoration: none;
-                    color: white;
+                    color: gray;
                     display: block;
                 }
             }
@@ -741,7 +751,7 @@ footer{
                 a{
                     font-size: 14px;
                     text-decoration: none;
-                    color: white;
+                    color: gray;
                     display: block;
                 }
             }
@@ -783,7 +793,7 @@ footer{
                 a{
                     font-size: 14px;
                     text-decoration: none;
-                    color: white;
+                    color: gray;
                     display: block;
                 }
             }
@@ -825,11 +835,23 @@ footer{
                 a{
                     font-size: 14px;
                     text-decoration: none;
-                    color: white;
+                    color: gray;
                     display: block;
                 }
             }
         }
     }
 }  
+}
+footer>section.footer__a>section.F__first>section.f__c>a:hover{
+    color:white
+}
+footer>section.footer__a>section.F__second>section.s__c>a:hover{
+    color:white
+}
+footer>section.footer__a>section.F__third>section.th__c>a:hover{
+    color:white
+}
+footer>section.footer__a>section.F__forth>section.fo__c>a:hover{
+    color:white
 }
