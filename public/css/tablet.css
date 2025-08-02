@@ -117,7 +117,7 @@ section.tea>section.image{
     width: 300px;
     height: 300px;
     position: absolute;
-    bottom: 30%;
+    bottom: 25%;
     right: 18%;
     background: url(../picture/tea-pic1-1.png) no-repeat;
     background-size: cover;
@@ -126,7 +126,7 @@ section.tea>section.text{
     width: 300px;
     height: 350px;
     position: absolute;
-    bottom: 25%;
+    bottom: 20%;
     left: 10%;
 }
 section.tea>section.text>h1{
@@ -200,7 +200,7 @@ section.image__b{
     width: 740px;
     height: 300px;
     position: relative;
-    left: 3%;
+    left: 9%;
     top: 20px;
     padding: 10px;
     .image__first{
@@ -537,7 +537,7 @@ section.building{
             width: 550px;
             height: 80px;
             position: absolute;
-            left: 38%;
+            left: 30%;
             top: 38%;
             text-align: left;
             h1{
@@ -567,7 +567,7 @@ section.building{
             background-size: cover;
             position: absolute;
             bottom: -80px;
-            left: 38%;
+            left: 30%;
             box-shadow: -2px 2px 6px rgb(81, 81, 81) ;
         }
     }
