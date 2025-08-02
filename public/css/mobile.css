@@ -144,6 +144,7 @@ section.tea{
     background: linear-gradient(to top,rgb(201, 200, 200),white);
     width: 100%;
     height: 670px;
+    position: relative;
     overflow: hidden;
 }
 section.tea>section.image{
